@@ -1,0 +1,20 @@
+currency: $
+items:
+- milk:
+    unit_price:
+      price: 3.97
+    sale_price:
+      units: 2
+      price: 5.00
+- bread:
+    unit_price:
+      price: 2.17
+    sale_price:
+      units: 3
+      price: 6.00
+- banana:
+    unit_price:
+      price: 0.99
+- apple:
+    unit_price:
+      price: 0.89
