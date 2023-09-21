@@ -10,7 +10,7 @@ module Parser
     def initialize
       @config = YAML.safe_load(File.read(Dir.pwd + '/configs/sale_price.yml'), symbolize_names: true)
 
-      self.currency = @config[:currency]
+      self.currency = @config.key?(:currency) ? @config[:currency] : '$'
       self.items = parse_config(@config)
     end
 
