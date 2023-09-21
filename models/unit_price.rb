@@ -1,3 +1,7 @@
-class UnitPrice
-  attr_accessor :currency
+module Models
+
+  class UnitPrice
+    attr_accessor :currency
+  end
+
 end
