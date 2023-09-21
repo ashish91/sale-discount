@@ -4,6 +4,8 @@ module Models
     attr_accessor :units, :price
 
     def initialize(units:, price:)
+      self.units = units
+      self.price = price
     end
   end
 

@@ -7,3 +7,4 @@ end
 require_folder 'io'
 require_folder 'models'
 require_folder 'parser'
+require_folder 'pricing_strategy'

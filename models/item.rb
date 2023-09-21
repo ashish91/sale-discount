@@ -6,6 +6,7 @@ module Models
     def initialize(name:)
       self.name = name
     end
+
   end
 
 end
