@@ -14,4 +14,6 @@ sale_price_configs = Parser::SalePriceParser.new
 pricing = PricingStrategy::PricingCalculator.new(items_input: items, sale_price_configs: sale_price_configs)
 pricing.calculate_price!
 
+Io::OutputFormatter.price_report(pricing)
+
 binding.pry
